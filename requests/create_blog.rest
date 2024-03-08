@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNnaGFocmVtYW5pIiwiaWQiOiI2NWU5ZDM4MTE4YzBiY2ExOWYwZjExOGQiLCJpYXQiOjE3MDk4MjMwNjh9.4M8ktsk0r-pSAm62L4QhlmNX7lkUdWJJ2-nzy-1RWTQ
+
+{
+    "title": "testing functionality of using user extraction using middleware",
+    "author": "cameron ghahremani",
+    "url": "test.com",
+    "likes": 10,
+    "userId": "65e8c88d77e86ef02c8bbe8c"
+}
